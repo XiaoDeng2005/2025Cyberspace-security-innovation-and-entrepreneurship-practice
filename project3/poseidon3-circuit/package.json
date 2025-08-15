@@ -1,0 +1,16 @@
+{
+  "name": "poseidon2-circuit",
+  "version": "1.0.0",
+  "description": "Poseidon2 Hash Circuit with Groth16 Proof",
+  "scripts": {
+    "compile": "./scripts/compile.sh",
+    "test": "./scripts/test.sh",
+    "setup": "./scripts/trusted_setup.sh",
+    "prove": "./scripts/generate_proof.sh"
+  },
+  "dependencies": {
+    "circom": "^2.1.5",
+    "circomlib": "^2.0.5",
+    "snarkjs": "^0.6.11"
+  }
+}
